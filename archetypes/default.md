@@ -1,10 +1,10 @@
 ---
-title: {{ .title}}
-summary: {{ short description }}
+title: '{{ default (printf "%s" (path.Base (path.Dir .File.Dir))) }}'
+summary: ' add descrition here '
 tags:
   - risorse
   - other
   - wip
-date: {{ .date }}
-external_link: 
+date: '{{ .Date }}'
+external_link: 'https://github.com/csunibo/{{default (printf "%s" (path.Base (path.Dir .File.Dir)))}}'
 ---

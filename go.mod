@@ -1,4 +1,4 @@
-module github.com/wowchemy/starter-hugo-portfolio-theme
+module github.com/csunibo/csunibo.github.io
 
 go 1.15
 
