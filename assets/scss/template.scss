@@ -1,17 +1,24 @@
 // Starter Blog Template
 // https://wowchemy.com/hugo-themes/
+:root {
+  $primary: #971327;
+  $secondary: #EA8C55;
+  $accent: #4281A4;
+  $content: #02111B;
+  $base: #F1FAEE;
+}
 
 body {
-  background-color: rgb(247, 250, 252);
+  background-color: var(--base);
 }
 
 .article-container {
-  background-color: #fff;
+  background-color: var(--base);
   border-radius: 15px;
 }
 
 .dark .article-container {
-  background-color: rgb(31, 39, 51);
+  background-color: var(--base);
 }
 
 // custom footer color
@@ -61,7 +68,7 @@ ul.network-icon .big-icon {
 }
 
 .dark .portrait-title h2 {
-  color: #fff;
+  color: var(--content);
   font-weight: bold;
 }
 
